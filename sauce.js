@@ -36,6 +36,18 @@ function callbg(i)
   	});
 }
 
+function randomize()
+{
+	$.ajax({type: "GET",url: "copy.php", 
+		success: function(data) {
+		  $( "img[name=img1]" ).attr( "src", "temp1.jpg" );
+		  $( "img[name=img2]" ).attr( "src", "temp2.jpg" );
+		  $( "img[name=img3]" ).attr( "src", "temp3.jpg" );
+		  $( "img[name=img4]" ).attr( "src", "temp4.jpg" );
+		  $( "img[name=img5]" ).attr( "src", "temp5.jpg" );
+    }});
+}
+
 function applyBg(imgSelected) {
 
 	// imgSelected = "purple.jpg"
