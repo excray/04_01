@@ -109,6 +109,6 @@ function applyBg(imgSelected) {
 	    };
 	    img1.src = imgSelected;
     };
-    img.src = "org_green.JPG";
+    img.src = "org_green.jpg";
 }
 	
